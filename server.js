@@ -1,12 +1,14 @@
 const express = require('express');
-const PORT = process.env.PORT || 3001;
-
-const app = express();
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
-const fs = require('fs');
-const path = require('path');
 
+const app = express();
+
+//localhost:3001
+const PORT = process.env.PORT || 3001;
+
+
+// route for files in the 'public' folder
 app.use(express.static('public'));
 // parse incoming string or array data
 app.use(express.urlencoded({extended: true}));
@@ -14,8 +16,8 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 // Use apiRoutes
-app.use('/api', apiRoutes);
-app.use('/', htmlRoutes);
+// app.use('/api', apiRoutes);
+// app.use('/', htmlRoutes);
 
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);

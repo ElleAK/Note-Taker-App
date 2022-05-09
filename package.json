@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "jest": "^28.1.0",
+    "uniqid": "^5.4.0"
   }
 }
