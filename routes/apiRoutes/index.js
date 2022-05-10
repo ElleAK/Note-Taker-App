@@ -1,8 +1,8 @@
 const router = require('express').Router();
-const apiRoutes = require('./routes/apiRoutes');
-const htmlRoutes = require('./routes/htmlRoutes');
+const noteRoutes = require('../apiRoutes/noteRoutes');
+// const htmlRoutes = require('../htmlRoutes/index');
 
-// router.use(require('./zookeeperRoutes'));
-router.use(apiRoutes);
+// router.use(require('./apiRoutes'));
+router.use(noteRoutes);
 
 module.exports = router;
