@@ -1,24 +1,11 @@
-#Note Taker App
+Note Taker App
 
-> display: **flex**
+This app lets you write, save, and delete notes. When the link to the notes page is clicked I am provided with a list of saved notes on the left and the ablility to write a new note. When I enter a new note with a new title the save icon appears and I am able to save that note. When I click on the trash icon the note is deleted.
 
-> justify-content: **flex-start** | **center** | **flex-end** | **space-around** | **space-between** | **space-evenly**
-
->align-items: **flex-start** | **center** | **flex-end**
-
->flex-direction: **row** | **column** | **row-reverse** | **column-reverse**
-
->flex-wrap: **nowrap**  | **wrap**
-
->flex-row: **flex-direction** | **flex-wrap**
-
->order: -2, -1, 0, 1, 2 ...
-
->align-self:
+Made with Javascript, Node.js, Express.js, HTML, CSS
 
 
+ScreenShots:
 
-This app lets you save notes.
-
-Made with Javascript, Node.js, Express, HTML, CSS
-
+![Notetaker](notetaker.jpg)
+![Notetitle](notetitle.jpg)
