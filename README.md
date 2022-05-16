@@ -7,5 +7,5 @@ Made with Javascript, Node.js, Express.js, HTML, CSS
 
 ScreenShots:
 
-![Notetaker](notetaker.jpg)
-![Notetitle](notetitle.jpg)
+<img src="./notetaker.jpg" alt="Page 1" />
+<img src="./notetitle.jpg" alt="Page 2" />
