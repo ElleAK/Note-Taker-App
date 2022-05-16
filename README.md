@@ -4,8 +4,12 @@ This app lets you write, save, and delete notes. When the link to the notes page
 
 Made with Javascript, Node.js, Express.js, HTML, CSS
 
+Deployed to Heroku: https://notetaker-departure.herokuapp.com
+GitHub page: https://elleak.github.io/Note-Taker-App/
 
 ScreenShots:
 
-<img src="./notetaker.jpg" alt="Page 1" />
-<img src="./notetitle.jpg" alt="Page 2" />
+![notetaker](https://user-images.githubusercontent.com/91795114/168503321-73dac3da-2bd5-40fe-a39d-65234178b107.jpg)
+
+
+![notetitle](https://user-images.githubusercontent.com/91795114/168503277-7141c595-280f-40f6-a81d-660b002ebae6.jpg)
